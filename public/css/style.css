@@ -2,8 +2,14 @@
 
 /*header css*/
 header{
-  /*border-bottom: 1px dashed #757070;*/
-  box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+  height: 7.1em;
+  -webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,0.24);
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.24);
+}
+
+.bg-header{
+  background: #e0e1e5 url(../images/background/background.png) repeat;
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.24);
 }
 
 a{
@@ -106,15 +112,6 @@ a{
   background-color:#dadada !important;
 }
 
-.bg-content{
-  margin-top: 8px;
-  padding: 15px 13px;
-  background: #e0e1e5 url(../images/background/background.png) repeat;
-  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.24);
-  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.24);
-  box-shadow: 0 4px 5px rgba(0,0,0,0.24);
-}
-
 #tin-hot-left{
 	padding: 0;
 }
@@ -137,7 +134,7 @@ a{
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding: 20px;
+  padding: 5px;
   z-index: 0;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, rgba(0, 0, 0, 0.65)), to(transparent));
   background: linear-gradient(to right, #101d46, 50%, transparent 60%);
@@ -206,8 +203,19 @@ a{
   }
 }
 
-    
+.title-content{
+  padding: 0;
+}	
 
+@media (max-width:767px){
+  .title-content{
+	  padding: 0 15px 0 15px;
+  }
+}
+
+.title-content h3{
+  border-bottom:2px solid;
+}
 
 
 
@@ -224,7 +232,7 @@ a{
 {
   border-radius:20px;
   position: fixed;
-  bottom: 6.29em;
+  bottom: 1em;
   right: .5em;
   cursor: pointer;
   display: none;
