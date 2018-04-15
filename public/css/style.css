@@ -225,6 +225,40 @@ a{
   }
 }
 
+.img-tinhot-left{
+  width: 100%;
+  height: 448.39px;
+}
+
+@media (max-width: 1200px){
+  .img-tinhot-left{
+    width: 760px;
+    height: 448.39px;
+  }
+}
+
+@media (max-width: 1199px){
+  .img-tinhot-left{
+    width: 639.98px;
+    height: 377.58px;
+  }
+}
+
+@media (max-width: 991px){
+  .img-tinhot-left{
+    width: 100%;
+    height: 283.19px;
+  }
+}
+
+@media (max-width: 767px){
+  .img-tinhot-left{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
 .title-content{
   margin-bottom: 5px;
   padding: 0;
