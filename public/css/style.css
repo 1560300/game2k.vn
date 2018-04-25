@@ -3,13 +3,18 @@
 /*body css*/
 body{
    box-shadow: 0 0 70px 5px rgba(0,0,0,0.24) inset;
+
+}
+
+h1, h2, h2, h4, h5, h6{
+  line-height: 1.4;
 }
 
 /*header css*/
 header{
   height: 7.1em;
   -webkit-box-shadow: 0 0 70px 5px rgba(0,0,0,0.24);
-  box-shadow: 0 0 70px 5px rgba(0,0,0,0.24);
+  box-shadow: 0 0 60px 5px rgba(0,0,0,0.24);
 }
 
 .bg-header{
@@ -18,6 +23,11 @@ header{
 }
 
 a{
+  color:#6c757d;
+  text-decoration: none;
+}
+
+a:hover{
   text-decoration: none;
 }
 
@@ -299,8 +309,57 @@ a{
 @media (max-width: 767px){
   .div-bai-viet{
     padding: 0 15px 0 15px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
   }
+}
+
+/*css content bai viet*/
+
+.post-metadata{
+  border-bottom:1px dotted rgba(215,215,215,1.0);
+  margin-bottom: 25px;  
+}
+
+.post-metadata ul{
+  list-style-type: none;
+  padding: 0;
+  color: rgba(153,153,153,1.0);
+  font-size: 13px;
+}
+
+
+.content-bai-viet{
+
+}
+
+.content-bai-viet p{
+  margin:10px 0 0 0;
+  padding-top: 8px;
+  padding-bottom: 7px; 
+  font-size: 17px;
+  color: rgba(102,102,102,1.0);
+}
+
+.content-bai-viet p img{
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px){
+  .content-bai-viet p img{
+    width: 100%;
+  }
+}
+
+.content-xem-nhieu h5{
+  margin-bottom: 20px;
+  border-bottom: 1px dotted rgba(215,215,215,1.0);
+  line-height: 30px;
+  padding-bottom: 15px;
+}
+
+.content-xem-nhieu-1{
+  margin-bottom: 20px;
 }
 
 /*footer css*/
@@ -364,9 +423,6 @@ a{
 }
 
 /*css scroll bar*/
-
-
-
 
 
 
